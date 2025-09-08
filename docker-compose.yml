@@ -1,0 +1,31 @@
+services:
+  jr_echo_agent_db:
+    image: postgres:16
+    volumes:
+      - jr_echo_agent_db:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=echo_agent_db
+    ports:
+      - 5434:5432
+
+
+  web:
+    tty: true
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jr_echo_agent_web
+    container_name: jr_echo_agent_web
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - jr_echo_agent_db
+    command: python manage.py runserver 0.0.0.0:8000
+
+volumes:
+  jr_echo_agent_db:
