@@ -1,0 +1,49 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/Users/rigobertoperez/.pyenv/versions/3.11.7/envs/echoagent/bin/python3",
+        "python.analysis.extraPaths": [
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/apps",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/core",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/utils"
+        ],
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.indexing": true,
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true
+        },
+        "search.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true
+        },
+        "cursorpyright.analysis.autoImportCompletions": true,
+        "cursorpyright.analysis.autoSearchPaths": true,
+        "cursorpyright.analysis.diagnosticMode": "workspace",
+        "cursorpyright.analysis.extraPaths": [
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/apps",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/core",
+            "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/utils"
+        ],
+        "cursorpyright.analysis.typeCheckingMode": "basic"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.pylint",
+            "ms-python.black-formatter",
+            "ms-python.isort"
+        ]
+    }
+}

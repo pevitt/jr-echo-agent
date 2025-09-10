@@ -1,0 +1,41 @@
+{
+    "include": [
+        ".",
+        "apps",
+        "core",
+        "utils"
+    ],
+    "exclude": [
+        "**/__pycache__",
+        "**/migrations",
+        "**/venv",
+        "**/.venv",
+        "**/node_modules"
+    ],
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Darwin",
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "pythonVersion": "3.11",
+            "pythonPlatform": "Darwin",
+            "extraPaths": [
+                "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent",
+                "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/apps",
+                "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/core",
+                "/Users/rigobertoperez/Documents/fullstack/backend/jr-echo-agent/utils"
+            ]
+        }
+    ],
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "autoSearchPaths": true,
+    "autoImportCompletions": true,
+    "pythonPath": "/Users/rigobertoperez/.pyenv/versions/3.11.7/envs/echoagent/bin/python3",
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": "none",
+    "reportGeneralTypeIssues": "warning",
+    "reportOptionalMemberAccess": "warning",
+    "reportOptionalSubscript": "warning",
+    "reportPrivateImportUsage": "warning"
+}

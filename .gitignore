@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Google Drive
+credentials.json
+token.json
+
 # C extensions
 *.so
 

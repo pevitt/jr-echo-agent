@@ -11,5 +11,8 @@ redis==5.0.4
 pdbpp==0.10.3
 ipdb==0.13.13
 fancycompleter==0.9.1
-djangorestframework-simplejwt==5.3.1
 djangorestframework-api-key==3.1.0
+twilio==9.2.3
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
